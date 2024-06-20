@@ -7,9 +7,6 @@
 - [Introduction](#introduction)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
-- [Quick Start](#quick-start)
-- [Links](#links)
-- [More](#more)
 
 ## Introduction
 
