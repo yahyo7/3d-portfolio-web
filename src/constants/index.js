@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    portfolio3d
   } from "../assets";
   
   export const navLinks = [
@@ -46,17 +47,17 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Front-End Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -198,16 +199,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "3D Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Step into a new dimension of web design. This 3D portfolio, built with React, Three.js, and Tailwind CSS,  is a testament to my creative approach and passion for pushing the boundaries of user experience. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
@@ -215,8 +216,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolio3d,
+      source_code_link: "https://github.com/yahyo7/3d-portfolio-web",
     },
     {
       name: "Job IT",

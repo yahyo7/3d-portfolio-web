@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import portfolio3d from "./3d-portfolio.png"
+
+import leetcode from "./leetcode.svg"
+
 
 export {
   logo,
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  portfolio3d,
+
+  leetcode
 };

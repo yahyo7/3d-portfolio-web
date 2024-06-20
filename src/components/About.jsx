@@ -7,6 +7,11 @@ import {services} from '../constants';
 import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, } from '@fortawesome/free-brands-svg-icons';
+import { leetcode } from '../assets';
+
+
 const ServiceCard = ({index, title, icon}) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -44,6 +49,18 @@ const About = () => {
     >
       Result-oriented Full Stack Software Developer with a passion for building scalable and innovative web applications. Proficient in front-end development with React and back-end development using Node.js, Python, Flask, and Django. Skilled in designing robust architectures, implementing RESTful APIs, and optimizing application performance. Adept at working in agile environments and collaborating with cross-functional teams to deliver high-quality solutions. Eager to leverage expertise in full-stack development to drive business success and exceed client expectations.
     </motion.p>
+
+    <div className="flex mt-4 space-x-4"> 
+        <a href="https://www.linkedin.com/in/yakhyokhon/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} className="text-secondary text-2xl" /> 
+        </a>
+        <a href="https://github.com/yahyo7" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} className="text-secondary text-2xl" />
+        </a>
+        <a href="https://leetcode.com/u/kV9RzmjFD7/" target="_blank" rel="noopener noreferrer">
+        <img src={leetcode} alt="LeetCode Profile" style={{ width: '1.5rem', height: '1.5rem' }}/>
+        </a>
+    </div>
 
     <div 
     className='mt-20 flex flex-wrap gap-10'>
